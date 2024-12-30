@@ -14,7 +14,7 @@ def bola_magica():
     return random.choice(respuestas)
 
 if __name__ == "__main__":
-    print("Bienvenido a la Bola Mágica")
+    print("Bienvenido a la Bola Magica")
     while True:
         pregunta = input("Escribe tu pregunta (o escribe salir para terminar): ")
         if pregunta.lower() == "salir" or pregunta.lower() == "SALIR":
